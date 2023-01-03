@@ -1,0 +1,172 @@
+#print function:
+print("Hello World")#escape sequence:
+print("line A\nline B \n line c")
+print("this is blackslash\\\\")
+print("gh\bhi")# comments:
+# hashtag is used to create comments
+#prin# class17:
+print(2+3)#class37:
+k = "she is beautiful"k = "She is beautiful"#class#class59&60:
+t = input()
+temp_var = ""
+i = 0
+while i<len(t):#class62:forloop
+i = 1
+for i in range(1,10):
+    print(f"Hello world{i}")
+    i+=1
+    if t[i] not in temp_var:
+        temp_var += t[i]
+        print(f"{t[i]} : {t.count(t[i])}")
+        i +=1:53(loops)>while loop
+i = 1#class57&58:
+t = input()
+total = 0
+i = 0
+while i<len(t):
+    total+= int(t[i])
+    i+=1
+    print(total)
+while i<=10:
+    print(f"hello world{i}")#class:55&56(exercise)
+n = int(input())
+i = 1
+total = 0
+while i <= n:
+    total+=i
+    i+=1
+print(total)
+    i = i+1
+knew = repl#class45: exercise##class:54(exercise)
+total = 0
+i = 1
+while i<=10:
+    total=total+i
+    i+=1class48,49: exercise
+nate = input()
+age = int(input())#class:51(in keyword)#class:52
+v = "k"
+if v:
+   print("not empty")
+else:
+    print("empty")
+v = "vscode"
+if "e" in v:
+    print("s")
+    if "c" in v:
+        print("s1")
+    else:
+        print("n1")
+else:
+    print("n2")
+if (nate[0]=='a' or nate[0]=='A') and age>10:
+    print("you can watch the movie")
+else:
+    print("sorry,u can't")
+L = 10
+r = int(input())#class47: (and,or)
+nate = "ab"
+age = 19
+if nate =="abc" or age == 18:
+   print("u r ok")
+else:
+    print("Can't")
+if L>r:
+    print("YOU WON !!!!")
+if L==r:
+    print("too low")
+if L<r:
+    print("too high")ace("t","T")#class40:
+k = "she is beautiful"#class42: if
+ag = int(input())
+if ag>18:
+    print("u r eligible")
+    if ag==18:
+        print("ok then")
+else:
+    print("u r not eligible")
+k = k +" right !"
+print(k)
+a = 2
+a+=2
+print(a)
+#throws error !!!
+print(k.replace(" ","_"))#class38:
+k = "she is beautiful"
+print(k.center(18,"\\"))
+print(k.center(len(k)+8,"\\"))
+print(k.find("is")) #position
+print(k.find("is", 3))
+print(2-3)#class22:
+n = int(input())#class34,35:
+w,d = input("w and d").spl#class36:
+name = "     HAR     "
+dots = ".........."
+print(name+dots)
+print(name.lstrip()+dots)
+print(name.strip()+dots)
+print(name.replace(" ", ""))it(",")
+
+print(f"len:{len(w)}")
+print(f"count:{w.lower().count(d.lower())}")
+print(n)#class28:
+a = #class29:#class#class33:
+name = "RAVaN"
+print(len(name))
+print(name.lower())
+print(name.upper())
+print(name.title())
+print(name.count("a"))31,32:
+name = "RAVAN"
+reverse = name[-1::-1]
+print(f"reverse of name is {reverse}")
+b = "Python"#class30:step argument
+b = "python"
+print(b[0:6:2])
+print(b[::-1])
+print(b[-3:6])"name"
+print(a[-1])
+print(9*n)#class23:#class25:
+#print("hello {} your age is {}"#class26,27: exercise
+k,l,m = input("k,l,m").split()
+# (int(k)+int(l)+int(m))/3
+print(f"average:{(int(k)+int(l)+int(m))/3}").format(name, age))#python3
+#python3.6 down
+name = "PRASAD"
+age = 24
+print(f"hello {name} your age is {age}")
+n,a = "Harshith"#class24:
+name, age = input("enter your name and age").split()
+print(name)
+print(age),18
+print(a)
+x=y=z=1
+print(x+y-z)
+print(2*3)
+print(2/3)#class18:
+n = 2#class20:
+a = "name"#class21:
+name = input("type your name: ")
+print(name)
+print("Hello" + name)
+print(3*a)
+b = "cipher"
+print(10*b)
+print(n)
+name_one_year = 2 #snakewise
+NameOneYear = 2 #camelwise # floatingpoint division
+print(2//3) # integer division
+print(4%2) #remainder
+print(2**3)
+print(2**0.5)#squareroot
+print(round(2**0.5, 4)) #upto 4 digit
+print(2**3**2) #precedence rule,exponent(right to left)t function # # class15:
+print(r"line a \n line b")
+# class16:
+print("\U0001F602")\b is for backspace
+#escape characters as normal text
+# \t for tab (capital to small or viceversa)
+print("# this is \\\\ doubleslash")
+print("# these are /\\/\\/\\/\\/\\ mountains")
+print("# he is\t\tawesome")
+print("\\\" \\n \\t \\\'")is helpful
